@@ -20,6 +20,9 @@ function setup() {
   line(200, 250, 250, 250);
   line(200, 250, 250, 190);
 
+  strokeWeight(10);
+  point(450, 90);
+
 
 
 }
