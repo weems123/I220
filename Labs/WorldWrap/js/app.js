@@ -6,7 +6,7 @@ var yStart = 300;
 var cPosition = 0;
 
 //speed at which the circle moves across the screen
-var xPace = 1;
+var xPace = 5;
 
 //setting up the "starting" point (needed for all p5 drawings)
 function setup() {

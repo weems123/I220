@@ -1,10 +1,22 @@
 //set up for every program/app must come before function(draw)
 function setup() {
     createCanvas(600,400);
-    background(204);
-
-//For loop to continously count each time the code block runs
-    for (var i = 1; i <10; i++) {
-    console.log(i);
-    }
+    background(204);   
 }
+
+//looking for the click of the mouse
+function mouseClicked() {
+    fill(49, 57, 198);``
+  
+    //circle that will created once the mouse is clicked  
+    circle(mouseX, mouseY, 25);
+//add one to the total in the console
+    count++
+//display the number in the console
+    console.log(count);
+    
+}
+
+//variable created for count number
+let count = 0;
+
