@@ -9,14 +9,16 @@ function setup() {
 
 //starting function of draw that runs 60 times per second
 function draw() {
-//drawing the circle at mouse postions with radius of 50
-    ellipse(mouseX, mouseY, 50);
+//putting background first so it's just a single circle
+    background(255, 255, 255);
+    //mouse follows the cursor with a radius of 50
+        ellipse(mouseX, mouseY, 50);
 
 //color of the circle(blue)
     fill(27, 45, 181);
   
 //IF mouse moves over the threshold of 200px then change color to RED    
-    if(mouseX >= 200) {
+    if(mouseX > 200) {
         fill(247,7,47);
     }
     
