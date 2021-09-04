@@ -6,7 +6,7 @@ function setup() {
 
 //looking for the click of the mouse
 function mouseClicked() {
-    fill(49, 57, 198);``
+    fill(226, 9, 45);
   
     //circle that will created once the mouse is clicked  
     circle(mouseX, mouseY, 25);
