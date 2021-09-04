@@ -11,9 +11,9 @@ function mouseClicked() {
     //circle that will created once the mouse is clicked  
     circle(mouseX, mouseY, 25);
 //add one to the total in the console
-    count++
+    counter++
 //display the number in the console
-    console.log(count);
+    console.log(counter);
     
 }
 
