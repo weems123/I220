@@ -14,7 +14,7 @@ function draw() {
     fill(27, 45, 181);
   
 //IF mouse moves over the threshold of 200px then change color to RED    
-    if(mouseX > 200) {
+    if(mouseX >= 200) {
         fill(247,7,47);
     }   
 }
