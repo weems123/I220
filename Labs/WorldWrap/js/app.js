@@ -20,7 +20,7 @@ function draw() {
 cPosition = cPosition + xPace;
 
 //if circle reaches the end of the canvas start back at zero
-if(cPosition >= width) {
+if(cPosition >= 800) {
     cPosition = 0;
 }
 
