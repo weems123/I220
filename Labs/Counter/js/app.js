@@ -8,7 +8,7 @@ function setup() {
 function mouseClicked() {
     fill(226, 9, 45);
   
-    //circle that will created once the mouse is clicked  
+//circle that will created once the mouse is clicked  
     circle(mouseX, mouseY, 25);
 //add one to the total in the console
     counter++
@@ -18,5 +18,5 @@ function mouseClicked() {
 }
 
 //variable created for count number
-let count = 0;
+let counter = 0;
 
