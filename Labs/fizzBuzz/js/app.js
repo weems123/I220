@@ -1,6 +1,8 @@
-
+//variable for count
 let count = 0;
+//variable for where to start drawing the circle
 let x = 25;
+//variable for where to start drawing the square
 let s = 13;
 
 //creating the canvas to work with
@@ -50,6 +52,7 @@ function draw() {
         //increase s by 30 each time the loop runs
         s += 30;
         x += 30;
+        //increase count by 1 each time the loop runs
         count++;
     }
 }
