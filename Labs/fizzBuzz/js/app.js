@@ -1,3 +1,4 @@
+
 //variable for count
 let count = 0;
 //variable for where to start drawing the circle
@@ -16,7 +17,7 @@ function draw() {
     //begining of the while loop
     while(count < 25)
     {
-        /*IF count is divisible by 3 AND 5 withno remainder...
+        /*IF count is divisible by 3 AND 5 with no remainder...
         Had to put this one first because some numbers are divisble by 3
         and some are divisible by 5 so it wouldn't get down to this if statement*/ 
         if(count % 3 == 0 && count % 5 == 0)
