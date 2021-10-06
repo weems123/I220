@@ -1,5 +1,5 @@
 //size of each circle 
-let oos = [ 15, 22, 10, 5 , 10, 27];
+/*let oos = [ 15, 22, 10, 5 , 10, 27];
 //color of each circle
 let ahs = [ "#ed1a80", "#fcba03", "#ed1a80", "#fcba03", "#ed1a80", "#fcba03"]
 
@@ -34,4 +34,8 @@ function draw() {
     circle(sin(i) * 250, cos(i)* 250, oos[i]);
     circle(sin(i) * 300, cos(i)* 300, oos[i]);
   }
+}*/
+
+for(i = 0; i<10; i++){
+  console.log(i);
 }

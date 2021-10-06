@@ -1,5 +1,3 @@
-//var randomColor = '#'+ Math.floor(Math.random()*255,100,100).toString(16);
-
 
 //for loop to print the square 100 times
 for (i = 0; i<100; i++){
@@ -11,8 +9,8 @@ squareDiv.style.width = "20px";
 squareDiv.style.height = "20px";
 /*setting the float to left so it will stop at the end of the scren and go to the next line*/
 squareDiv.style.cssFloat = "left";
-//settting background color (still trying to figure out random color)
-squareDiv.style.backgroundColor= "#30bf20"
+//settting background color to a random RGB value from zero to 255 per color range
+squareDiv.style.backgroundColor= "rgb(" + Math.floor(Math.random() * 255) + "," + Math.floor(Math.random() * 255) + "," + Math.floor(Math.random() * 255) + ")"
 //set a margin so the blocks are actually away from eachother
 squareDiv.style.margin="1px";
 //painting the block onto the actual page
