@@ -12,7 +12,7 @@ for(i = 0; i <=cds.length - 1; i++){
         //set the div itme to black
         document.getElementById("div2").style.color = "black";
         //the item that should be udpated
-        document.getElementById("div2").innerHTML = cds[i].artist + " " +cds[i].title + " " + cds[i].tracks; 
+        document.getElementById("div2").innerHTML = cds[i].artist + ", " +cds[i].title + ", " + cds[i].tracks; 
     }else{
         //creating the items on the page
         let display = document.createElement("div");
