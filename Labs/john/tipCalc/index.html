@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<!--form to take input from the user--> 
+    <form>
+<!--label for the user name box so the user knows what to input-->         
+        <label for="amount">Bill Amount:</label><br>
+<!--actual box for the user to input their bill amount--leave the value blank-->        
+        <input id = "bill" type="text" name="fname" type ="number" value=""><br>
+<!--label for the tip box so the user knows what to input-->        
+        <label for="tip">Tip amount:</label><br>
+<!--actual box for the user to input their tip--leave the value blank-->        
+        <input  id = "tip" type="text" name="lname" type="number" value=""><br><br>
+<!--Button for the user to press that will save, check and display what the user input-->        
+        <button type="button" onclick="Total()">Calculate</button>
+        
+      </form> 
+
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

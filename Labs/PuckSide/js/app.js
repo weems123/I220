@@ -7,7 +7,7 @@ function setup() {
 //starting function of draw that runs 60 times per second
 function draw() {
 //putting background first so it's just a single circle
-    background(200, 200, 200);
+    background(204);
     //mouse follows the cursor with a radius of 50
     ellipse(mouseX, mouseY, 50);
 //color of the circle(blue)
