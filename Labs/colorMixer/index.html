@@ -6,10 +6,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
+<style>
+    #colorBox{
+        height: 400px;
+        width:  700px;
+        background-color: rgb(122, 122, 222);
+    }
+
+    #red{
+        height: 50px;
+        width: 50px;
+    }
+
+    #green{
+        height: 50px;
+        width: 50px;
+    }
+
+    #blue{
+        height: 50px;
+        width: 50px;
+    }
+
+</style>
 <body>
+
     
+    
+    <div id="colorBox"></div><br>
+    <label>red: </label>
+    <button onclick="changeColor(event)" id="red" data-value="1">+1</button>
+    <button onclick="changeColor(event)" id="red">+5</button>
+    <button onclick="changeColor(event)" id="red" data-value="10">+10</button><br>
+
+    <button onclick="changeColor(event)" id="green"></button>
+    <button onclick="changeColor(event)" id="green"></button>
+    <button onclick="changeColor(event)" id="green"></button><br>
+    <button onclick="changeColor(event)" id="blue"></button>
+    <button onclick="changeColor(event)" id="blue"></button>
+    <button onclick="changeColor(event)" id="blue"></button>
+
+
     
 
     <script src="js/app.js"></script>
 </body>
-</html>
+</html> 

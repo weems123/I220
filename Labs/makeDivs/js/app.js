@@ -20,6 +20,10 @@ let objects = [
        newEl.style.height = objects[i].height +"px"
    //make the width of the objects as specified in the array    
        newEl.style.width = objects[i].width + "px"
+    //float them left so they are horizontal
+       newEl.style.cssFloat = "left";
+    //give them a margin so they are sperated   
+        newEl.style.margin = "5px";
        //actually display the objects onto the screen
         divs.appendChild(newEl);
    }
